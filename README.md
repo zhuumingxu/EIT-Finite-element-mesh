@@ -9,4 +9,4 @@ First you must ensure that you have downloaded EIDORS and run it successfully. D
 Change line 3 of the main file to the address of the EIDORS file you saved.
 
 Run the main file and then select an image to use as a profiling template.
-![image](https://github.com/zhuumingxu/EIT-Finite-element-mesh/blob/main/1.png)
+![image](1.png)
