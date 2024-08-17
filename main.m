@@ -1,7 +1,8 @@
 clc
 clear
 run E:\eidors-v3.11-ng\eidors-v3.11-ng\eidors\startup.m;
-image = imread(['1.jpg']);
+[filename,pathname]=uigetfile({'*.jpg;*.bmp;*.tif;*.png;*.gif','All Image Files';'*.*','All Files'});
+image = imread([pathname,filename]);
 b = imresize(image,[1 1]);
 imshow(image);
 scalp = [];
